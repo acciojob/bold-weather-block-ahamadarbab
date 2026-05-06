@@ -1,1 +1,97 @@
 /*  your css code here. If applicable */
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(#b96fa1, #5a3f8c);
+	color: white;
+	height: 100vh;
+}
+
+/* Top Section */
+
+.top {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 40px;
+}
+
+.location h1 {
+	font-size: 25px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.location p {
+	margin: 8px 0;
+}
+
+.main-icon {
+	width: 150px;
+	margin-left: 50px;
+}
+
+/* Weather Block */
+
+.weather-block {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+/* Each Item */
+
+.item {
+	text-align: center;
+}
+
+.item img {
+	width: 60px;
+	margin: 10px 0;
+}
+
+/* Temp */
+
+.item-temp {
+	margin: 5px 0;
+}
+
+.item-temp-number1 {
+	font-weight: 600;
+}
+
+
+/* Mobile View */
+
+@media screen and (max-width: 500px) {
+
+	body{
+		height: 100%;
+	}
+
+	.weather-block {
+		flex-direction: column;
+		background: rgba(255, 255, 255, 0.1);
+		margin: 20px;
+		border-radius: 20px;
+		overflow: hidden;
+	}
+
+	.item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 5px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
+
+	.item img {
+		width: 40px;
+	}
+
+	.item:last-child {
+		border-bottom: none;
+	}
+}
+
+
