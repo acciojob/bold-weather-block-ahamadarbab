@@ -43,6 +43,7 @@ body {
 
 .item {
 	text-align: center;
+	padding: 5px;
 }
 
 .item img {
