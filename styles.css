@@ -16,13 +16,13 @@ body {
 	padding: 40px;
 }
 
-.location h1 {
+.selected-location h1 {
 	font-size: 25px;
 	font-weight: 600;
 	margin: 0;
 }
 
-.location p {
+.selected-location p {
 	margin: 8px 0;
 }
 
