@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 body {
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	background: linear-gradient(#b96fa1, #5a3f8c);
 	color: white;
 	height: 100vh;
